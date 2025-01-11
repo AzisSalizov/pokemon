@@ -7,7 +7,7 @@ h1 {
     margin: 20px 0;
 }
 
-.pokemon_container {
+.pokemon_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
