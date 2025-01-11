@@ -11,8 +11,8 @@ const PokemonCard = ({ name, url }) => {
     const imageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`;
 
     return (
-        <div className="pokemon-card">
-            <img src={imageUrl} alt={name} className="pokemon-image" />
+        <div className="pokemon_card">
+            <img src={imageUrl} alt={name} className="pokemon_img" />
             <h2>{name}</h2>
         </div>
     );

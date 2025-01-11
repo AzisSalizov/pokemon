@@ -21,7 +21,7 @@ function App() {
 
     return (
         <div className="App">
-            <div className="pokemon-container">
+            <div className="pokemon_container">
                 {pokemon.map((poke, index) => (
                     <PokemonCard key={index} name={poke.name} url={poke.url}/>
                 ))}

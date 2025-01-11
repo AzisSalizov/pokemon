@@ -1,4 +1,4 @@
-.pokemon-card {
+.pokemon_card {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
@@ -9,27 +9,27 @@
     transition: transform 0.2s;
 }
 
-.pokemon-card:hover {
+.pokemon_card:hover {
     transform: scale(1.05);
 }
 
-.pokemon-card h2 {
+.pokemon_card h2 {
     font-size: 1.2em;
     text-transform: capitalize;
     margin: 10px 0;
 }
 
-.pokemon-card a {
+.pokemon_card a {
     text-decoration: none;
     color: #0073e6;
     font-size: 0.9em;
 }
 
-.pokemon-card a:hover {
+.pokemon_card a:hover {
     text-decoration: underline;
 }
 
-.pokemon-image {
+.pokemon_img {
     width: 96px;
     height: 96px;
     margin-bottom: 10px;
